@@ -9,7 +9,6 @@ public class SumArray {
         for (int counter = 0; counter < array.length; counter++){
             total += array[counter];
         }
-
         System.out.printf("Total of array elements: %d%n", total);
     }
 }

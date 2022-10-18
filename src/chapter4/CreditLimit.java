@@ -19,10 +19,11 @@ public class CreditLimit {
         int newBalance = balance +  charges - credits;
         System.out.printf("The new balance is %d%n", newBalance);
         if (newBalance > limit){
-            System.out.println("Credit limit exceeded");
+            System.out.println("Credit limit did not exceed the limit");
+
         }
         else {
-            System.out.println("Credit limit did not exceed the limit");
+            System.out.println("Credit limit exceeded");
         }
     }
 }

@@ -1,6 +1,3 @@
-
-
-
 package testingClasses;
 
 public class Calculator {
@@ -26,4 +23,5 @@ public class Calculator {
     public int squareRoot(int number) {
         return (int) Math.sqrt(number);
     }
+
 }
