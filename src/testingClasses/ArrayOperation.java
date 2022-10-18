@@ -1,5 +1,4 @@
 package testingClasses;
-
 public class ArrayOperation {
     public static int sum(int[] numbers) {
         int total = 0;
@@ -18,7 +17,6 @@ public class ArrayOperation {
         }
         return maximumValue;
     }
-
     public static int minimum(int[] numbers) {
         int minimumValue = numbers[0];
         for (int number : numbers) {
@@ -27,9 +25,7 @@ public class ArrayOperation {
             }
 
         }
-
         return minimumValue;
-
     }
 
 }
