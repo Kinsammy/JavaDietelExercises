@@ -28,4 +28,11 @@ public class ArrayOperation {
         return minimumValue;
     }
 
+    public static int arrayMin(int[] arrays) {
+        return sum(arrays) - maximum(arrays);
+    }
+
+    public static int arrayMax(int[] arrays) {
+        return sum(arrays) - minimum(arrays);
+    }
 }

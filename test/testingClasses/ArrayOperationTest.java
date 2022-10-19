@@ -27,4 +27,13 @@ public class ArrayOperationTest {
     public void minimumOfArrayTest(){
         assertEquals(1,ArrayOperation.minimum(new int[]{1,2, 3, 4, 5}));
     }
+
+    @Test
+    public void indexArrayMinTest(){
+        assertEquals(10,ArrayOperation.arrayMin(new int[]{5, 2, 3, 1, 4}));
+    }
+
+    public void indexArrayMaxTest(){
+        assertEquals(1,ArrayOperation.arrayMax(new int[]{5, 2, 3, 1, 4}));
+    }
 }
