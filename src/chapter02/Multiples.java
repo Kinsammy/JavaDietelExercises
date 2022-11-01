@@ -9,6 +9,16 @@ public class Multiples {
         int firstNumber = input.nextInt();
         System.out.print("Enter the second number: ");
         int secondNumber = input.nextInt();
+        firstNumber = firstNumber * 3;
+        secondNumber = secondNumber * 2;
+
+        if (firstNumber % secondNumber == 0){
+            System.out.printf("First number: %d is multiple of Second Number: %d", firstNumber, secondNumber);
+        }
+        else {
+            System.out.printf("First number: %d is not multiple of Second Number: %d", firstNumber, secondNumber);
+
+        }
 
 
     }

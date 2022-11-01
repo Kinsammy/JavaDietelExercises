@@ -19,12 +19,14 @@ public class ArrayOperationTest {
 
     @Test
     public void maximumOfArrayTest(){
+
         assertEquals(5,ArrayOperation.maximum(new int[]{1, 2, 3, 4, 5}));
     }
 
 
     @Test
     public void minimumOfArrayTest(){
+
         assertEquals(1,ArrayOperation.minimum(new int[]{1,2, 3, 4, 5}));
     }
 
@@ -34,6 +36,7 @@ public class ArrayOperationTest {
     }
 
     public void indexArrayMaxTest(){
+
         assertEquals(1,ArrayOperation.arrayMax(new int[]{5, 2, 3, 1, 4}));
     }
 }
