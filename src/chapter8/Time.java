@@ -59,4 +59,22 @@ public class Time {
             throw new IllegalArgumentException("The hour is invalid");
     }
 
+    public void setTime(int hour, int minute, int second){
+        validate(hour, minute, second);
+        this.hour = hour;
+        this.minute = minute;
+        this.second = second;
+    }
+
+    public String toUniversalString(){
+        return String.format("%02d:%02d:%02d", hour, minute, second);
+    }
+
+    public String toString(){
+        return String.format("%02d:%02d:%02d %s" ,(hour == 0 ||hour == 12 ? 12 : hour % 12),
+                minute, second, (hour < 12 ? "AM" : "PM"));
+    }
+
+
+
 }
