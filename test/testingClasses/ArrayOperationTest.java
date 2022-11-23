@@ -36,7 +36,6 @@ public class ArrayOperationTest {
     }
 
     public void indexArrayMaxTest(){
-
         assertEquals(1,ArrayOperation.arrayMax(new int[]{5, 2, 3, 1, 4}));
     }
 }

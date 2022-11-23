@@ -1,9 +1,9 @@
 package chapter8;
 
 public class SimpleTime {
-    private int hour;
-    private int minute;
-    private int second;
+    private final int hour;
+    private final int minute;
+    private final int second;
 
     public SimpleTime(int hour, int minute, int second){
         this.hour = hour;

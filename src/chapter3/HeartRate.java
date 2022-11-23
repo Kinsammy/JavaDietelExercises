@@ -14,7 +14,7 @@ public class HeartRate {
         this.lastName = lastName;
         this.month = month;
         this.day = day;
-        this.year = year;
+        HeartRate.year = year;
     }
 
     public void setFirstName(String firstName){
@@ -46,7 +46,7 @@ public class HeartRate {
     }
 
     public void setYear(int year){
-        this.year = year;
+        HeartRate.year = year;
     }
     public static int getYear(){
         return year;

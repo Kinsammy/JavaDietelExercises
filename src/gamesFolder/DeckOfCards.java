@@ -6,7 +6,7 @@ public class DeckOfCards {
     private  static final SecureRandom randomNumbers = new SecureRandom();
     private static final int NUMBER_OF_CARDS = 52;
 
-    private Card[] deck = new Card[NUMBER_OF_CARDS];
+    private final Card[] deck = new Card[NUMBER_OF_CARDS];
     private  int currentCard = 0;
 
     public DeckOfCards() {
@@ -14,7 +14,7 @@ public class DeckOfCards {
             "Eight","Nine", "Ten","Jack","Queen", "King"};
         String[] suits = {"Hearts", "Diamonds", "Clubs", "Spades"};
         for (int count = 0; count < deck.length; count++){
-            deck[count] = new Card(faces[count % 1], suits[count / 13]);
+            deck[count] = new Card(faces[0], suits[count / 13]);
         }
     }
 

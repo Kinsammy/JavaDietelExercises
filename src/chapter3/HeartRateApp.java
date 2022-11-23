@@ -9,7 +9,7 @@ public class HeartRateApp {
        HeartRate rate = new HeartRate("Ade","Idowu", 3,6,1994);
 
         System.out.printf("The initial Details%nFIRST NAME: %s%nLast NAME: %s%nDATE OF BIRTH: %d.%d.%d%n",
-                rate.getFirstName(),rate.getLastName(),rate.getDay(),rate.getMonth(),rate.getYear());
+                rate.getFirstName(),rate.getLastName(),rate.getDay(),rate.getMonth(), HeartRate.getYear());
 
         System.out.printf("The initial Details%nFIRST NAME: %s%nLast NAME: %s%nMaximum Heart Rate is %d%n Target",
                 rate.getFirstName(),rate.getLastName(),rate.maximumHeartRate(), rate.targetHeartRate());

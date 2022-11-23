@@ -1,7 +1,7 @@
 package relationship;
 
 public class Lady {
-    private String name;
+    private final String name;
 
     public Lady(String name){
         this.name = name;

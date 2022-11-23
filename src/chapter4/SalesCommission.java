@@ -27,7 +27,7 @@ public class SalesCommission {
 
         if (counter != 0){
 
-            double commission = (double)(earning *0.09 + 200);
+            double commission = earning *0.09 + 200;
             System.out.printf("The Sales made the week is %d%nThe amount made for the week is $%d%n",counter, earning);
             System.out.printf("The commission for the week is $%.2f", commission);
         }

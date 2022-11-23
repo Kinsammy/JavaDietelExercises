@@ -2,7 +2,7 @@ package chapter7CaseStudies;
 
 public class GradeBook {
     private String courseName;
-    private int[] grades;
+    private final int[] grades;
 
     public GradeBook(String courseName, int[] grades){
         this.courseName = courseName;
