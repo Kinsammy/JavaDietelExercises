@@ -1,6 +1,6 @@
 package revisionWithChief.payment;
 
-public class FlutterwaveService implements PaymentService{
+public class FlutterWaveService implements PaymentService{
     @Override
     public void processPayment(double amount) {
 

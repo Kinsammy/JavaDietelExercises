@@ -12,6 +12,7 @@ public class SchoolAdmin {
     }
 
     public int[][] getNativeScores() {
+
         return nativeScores;
     }
 
@@ -30,6 +31,7 @@ public class SchoolAdmin {
     }
 
     public double[] getAverageScores() {
+
         return averageScores;
     }
 

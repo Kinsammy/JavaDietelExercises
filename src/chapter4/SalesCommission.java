@@ -21,7 +21,7 @@ public class SalesCommission {
             earning +=item;
             counter+=1;
 
-            System.out.println("Enter salesperson item or 0 to quit the calculation: ");
+            System.out.println("Enter salesperson item or 0 to quit the calculation: " );
             item = input.nextDouble();
         }
 

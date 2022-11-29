@@ -2,7 +2,7 @@ package payment;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import revisionWithChief.payment.FlutterwaveService;
+import revisionWithChief.payment.FlutterWaveService;
 import revisionWithChief.payment.PaymentService;
 import revisionWithChief.payment.PaystackService;
 
@@ -18,7 +18,7 @@ public class PaymentServiceTest {
 
     @Test
     public void pay(){
-        paymentService = new FlutterwaveService();
+        paymentService = new FlutterWaveService();
         paymentService.processPayment(690.0);
     }
 }

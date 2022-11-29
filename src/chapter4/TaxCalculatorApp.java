@@ -11,18 +11,21 @@ import java.util.Scanner;
 
 public class TaxCalculatorApp {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+//        Scanner input = new Scanner(System.in);
         Scanner console = new Scanner(System.in);
         double totalTax = 0;
         double taxRate;
         int counter = 1;
         while (counter <= 3) {
             System.out.print("Enter Citizen's name: ");
-            String name = input.nextLine();
+            String name = console.next();
             System.out.print("Enter Citizen's earning: ");
             int earning = console.nextInt();
-            if (earning <= 30_000){
-                taxRate = earning * 0.15;
+            int excess = earning - 3000;
+            if (excess > 0){
+                double baseTax = 3000 * 0.15;
+                double excessTax = excess * 0.2;
+                taxRate = baseTax + excessTax;
                 System.out.printf("%s, Your tax is %.2f%n" , name, taxRate);
             }
             else {
