@@ -32,7 +32,7 @@ public class Main {
         String mainMenu = """ 
                 Press 1 -> Unlock Diary
                 Press 2 -> Lock Diary
-                Press 3 -> exist
+                Press 3 -> exit
                 """;
 
         String userInput = input(mainMenu);
@@ -102,14 +102,14 @@ public class Main {
     }
 
     private static String input(String prompt){
-//        print(prompt);
-//        return keyboardInput.nextLine();
-        return JOptionPane.showInputDialog(null, prompt);
+        print(prompt);
+        return keyboardInput.nextLine();
+//        return JOptionPane.showInputDialog(null, prompt);
     }
 
     private static void print(String prompt){
-//        System.out.println(prompt);
-        JOptionPane.showInputDialog(null, prompt);
+        System.out.println(prompt);
+//        JOptionPane.showInputDialog(null, prompt);
     }
 
 
