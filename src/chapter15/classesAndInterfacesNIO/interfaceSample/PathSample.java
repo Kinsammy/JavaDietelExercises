@@ -11,7 +11,7 @@ public class PathSample {
         Path path = Paths.get("/home/samuel/IdeaProjects/JavaDietelExercises/src/gamesFolder");
 //        ath path = Paths.get("/home/samuel/IdeaProjects/JavaDietelExercises/src/gamesFolder/classesAndInterface.txt");
         System.out.println("is directory:: " +Files.isDirectory(path));
-        System.out.println("The File system:: "+ path.getFileSystem());
+        System.out.println("The File system:: "+ path.getFileSystem()+ " " + System.getProperty("file.separator"));
 
         // Check to see if path points to a hidden resource
 
