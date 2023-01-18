@@ -1,6 +1,6 @@
 package chapter10;
 
-public abstract class Car implements Movable{
+public abstract class Car implements Movable {
     @Override
     public void move() {
 

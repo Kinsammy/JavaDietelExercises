@@ -1,6 +1,6 @@
 package chapter10;
 
-public abstract class Dog extends Animal implements Movable{
+public abstract class Dog extends Animal implements Movable {
 
     public void speak(){
         System.out.println("Bark");
