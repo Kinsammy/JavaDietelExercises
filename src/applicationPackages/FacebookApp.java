@@ -1,5 +1,6 @@
 //package applicationPackages;
 //
+//import java.awt.*;
 //import java.util.ArrayList;
 //import java.util.Scanner;
 //
@@ -9,24 +10,22 @@
 //
 //        ArrayList<String> usernames = new ArrayList<>();
 //        ArrayList<String> passwords = new ArrayList<>();
-//        ArrayList<String> database = new ArrayList<>()
 //
-//        System.out.print("What is your username? ");
-//        String username = input.nextLine();
 //
-//        System.out.print("What is your password? ");
-//        String password = input.nextLine();
-//
-//        usernames.add(username);
-//        passwords.add(password);
-//
+//        while (true){
+//            System.out.print("What is your username? ");
+//            String username = input.nextLine();
+//            usernames.add(username);
+//            System.out.print("What is your password? ");
+//            String password = input.nextLine();
+//            passwords.add(password);
 //
 //
 //
+//        }
+//        }
 //
-//
-//
-//
+////
 //
 //    }
 //}
