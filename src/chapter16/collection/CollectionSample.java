@@ -1,4 +1,4 @@
-package chapter16;
+package chapter16.collection;
 
 import java.util.*;
 
@@ -24,11 +24,6 @@ public class CollectionSample {
         System.out.println("The min::" +Collections.min(numbers));
         System.out.println("The max::" +Collections.max(numbers));
 
-
-
-//        for (String word : words) {
-//            System.out.println(word);
-//        }
 
     }
 }
