@@ -38,6 +38,8 @@ public class SampleTwo {
         Spliterator<Integer> spliterator = numbers.spliterator();
         var spliterator1 = spliterator.trySplit();
         System.out.println("numbers -> " +spliterator1.estimateSize());
+        spliterator.forEachRemaining(System.out::println);
+//    It also work like the above function -> spliterator.forEachRemaining(c -> System.out.println(c));
 
     }
 }
