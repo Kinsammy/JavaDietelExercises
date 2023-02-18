@@ -1,4 +1,4 @@
-package leetCode;
+package kunaDataStructureAlgorithm;
 
 public class Swap {
     public static void main(String[] args) {

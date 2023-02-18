@@ -1,4 +1,4 @@
-package leetCode;
+package kunaDataStructureAlgorithm;
 
 import java.util.Arrays;
 
