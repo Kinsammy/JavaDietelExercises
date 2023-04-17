@@ -1,8 +1,8 @@
-package kunaDataStructureAlgorithm.linearSearch;
+package leetCode;
 
 import org.junit.jupiter.api.Test;
 
-import static kunaDataStructureAlgorithm.linearSearch.EvenNumberCount.findEvenNumbers;
+import static leetCode.EvenNumberCount.findEvenNumbers;
 import static org.junit.jupiter.api.Assertions.*;
 
 class EvenNumberCountTest {

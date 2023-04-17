@@ -1,4 +1,4 @@
-package kunaDataStructureAlgorithm.linearSearch;
+package leetCode;
 
 public class EvenNumberCount {
     public static void main(String[] args) {
