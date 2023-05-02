@@ -103,8 +103,8 @@ public class Main {
 
     private static String input(String prompt){
         print(prompt);
-        return keyboardInput.nextLine();
-//        return JOptionPane.showInputDialog(null, prompt);
+//        return keyboardInput.nextLine();
+        return JOptionPane.showInputDialog(null, prompt);
     }
 
     private static void print(String prompt){
