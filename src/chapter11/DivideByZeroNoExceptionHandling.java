@@ -19,22 +19,11 @@ public class DivideByZeroNoExceptionHandling {
             } catch (ArithmeticException e){
                 System.out.println("You have divide a numerator by Zero(0)");
             }
-            try {
-                if (input.hasNext()) {
-                    throw new InputMismatchException("You entered String");
-                }
-
-            }
 
             catch (InputMismatchException e){
                 input.nextLine();
                 System.err.println("you enter a String instead of number." + e.getMessage());
             }
-           if (denominator != 0){
-               System.out.printf("%nResult: %d / %d = %d%n", numerator, denominator , result);
-               break;
-           }
-
         }
     }
 
@@ -42,7 +31,6 @@ public class DivideByZeroNoExceptionHandling {
         if (denominator == 0){
             throw new ArithmeticException("You are dividing numerator by zero!");
         }
-
         return numerator / denominator;
     }
 }

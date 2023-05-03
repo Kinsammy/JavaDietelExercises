@@ -5,7 +5,7 @@ import java.util.List;
 
 public class SampleFive {
     public static void main(String[] args) {
-        List<Integer> list = Collections.singletonList(1);
+        List<Integer> list = new java.util.ArrayList<>(Collections.singletonList(1));
         list.add(56);
         System.out.println(list);
     }

@@ -16,7 +16,7 @@ public class SampleFour {
 
         System.out.println("Numbers before sorting->" +numbers);
 
-        Comparator<Integer> comparator = (a, b) -> b- a;
+//        Comparator<Integer> comparator = (a, b) -> b- a;
 
         numbers.sort(Comparator.naturalOrder());
         System.out.println("Numbers after sorting in order->" +numbers);
